@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/submit", "dest": "/api/submit.js" },
+    { "src": "/api/accounts", "dest": "/api/accounts.js" },
+    { "src": "/submit", "dest": "/public/submit.html" },
+    { "src": "/view", "dest": "/public/view.html" },
+    { "src": "/", "dest": "/public/submit.html" }
+  ]
+}
